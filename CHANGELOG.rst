@@ -2,6 +2,14 @@
 Changelog for package uncrustify_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.0 (2024-04-16)
+------------------
+* Update to uncrustify 0.78.1 (`#37 <https://github.com/ament/uncrustify_vendor/issues/37>`_)
+  * Update to uncrustify 0.78.1
+  * Fix the uncrustify version detection logic.
+  And make sure we are at least 0.78.
+* Contributors: Chris Lalancette
+
 2.2.1 (2023-07-11)
 ------------------
 * Switch to ament_cmake_vendor_package (`#34 <https://github.com/ament/uncrustify_vendor/issues/34>`_)
