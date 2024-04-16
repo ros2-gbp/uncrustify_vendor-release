@@ -15,8 +15,8 @@ function(check_uncrustify RESULT PROGRAM)
     set(${RESULT} FALSE PARENT_SCOPE)
   else()
     # Before 0.65 uncrustify used a different versioning scheme so the regex won't match
-    string(REGEX REPLACE "^Uncrustify-(.*)_f$" "\\1" version_prefix_match "${out}")
-    if(NOT version_prefix_match OR version_prefix_match VERSION_LESS 0.72)
+    string(REGEX REPLACE "^Uncrustify(_d|)-(.*)_f$" "\\2" version_prefix_match "${out}")
+    if(NOT version_prefix_match OR version_prefix_match VERSION_LESS 0.78)
       set(${RESULT} FALSE PARENT_SCOPE)
     endif()
   endif()
@@ -31,7 +31,7 @@ endif()
 ament_vendor(uncrustify_vendor
   SATISFIED ${UNCRUSTIFY}
   VCS_URL https://github.com/uncrustify/uncrustify.git
-  VCS_VERSION uncrustify-0.72.0
+  VCS_VERSION uncrustify-0.78.1
   PATCHES patches
   CMAKE_ARGS
     -DNoGitVersionString=ON
