@@ -2,6 +2,16 @@
 Changelog for package uncrustify_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.1 (2025-04-02)
+------------------
+* Merge pull request `#39 <https://github.com/ament/uncrustify_vendor/issues/39>`_ from ament/mergify/bp/jazzy/pr-38
+  Remove CODEOWNERS and mirror-rolling-to-master workflow. (backport `#38 <https://github.com/ament/uncrustify_vendor/issues/38>`_)
+* Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#38 <https://github.com/ament/uncrustify_vendor/issues/38>`_)
+  They are both outdated and both no longer serving their
+  intended purpose.
+  (cherry picked from commit 3576a545202e1a7cd5f2002326bee97b01d8bd9b)
+* Contributors: Alejandro Hernández Cordero, Chris Lalancette
+
 3.0.0 (2024-04-16)
 ------------------
 * Update to uncrustify 0.78.1 (`#37 <https://github.com/ament/uncrustify_vendor/issues/37>`_)
