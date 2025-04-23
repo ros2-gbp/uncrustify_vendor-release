@@ -1,0 +1,13 @@
+Source: ros-kilted-uncrustify-vendor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-vendor-package, uncrustify, ros-kilted-ros-workspace
+Homepage: https://github.com/uncrustify/uncrustify
+Standards-Version: 3.9.2
+
+Package: ros-kilted-uncrustify-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, uncrustify, ros-kilted-ros-workspace
+Description: Wrapper around uncrustify, providing nothing but a dependency on uncrustify, on some systems.
+ On others, it provides an ExternalProject build of uncrustify.
