@@ -1,1 +1,1 @@
-{"base": "9792d82", "parent": "debian/rolling/uncrustify_vendor", "previous": "35225b3", "trim": "", "trimbase": ""}
+{"base": "454d83c046c4", "parent": "debian/rolling/uncrustify_vendor", "previous": "4708ccd556bc", "trim": "", "trimbase": ""}
