@@ -2,6 +2,9 @@
 Changelog for package uncrustify_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.3.0 (2026-05-07)
+------------------
+
 3.2.0 (2025-04-24)
 ------------------
 * Remove CODEOWNERS and mirror-rolling-to-master workflow. (`#38 <https://github.com/ament/uncrustify_vendor/issues/38>`_)
